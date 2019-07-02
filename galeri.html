@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTech - Jogja Technology Comunity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="img/j-icon.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+
+	<div class="layer">
+		<div class="header-pict"  style="background: url(img/camera.jpg)bottom;background-size:cover;background-attachment: fixed;">
+		<div id="dark">
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+
+
+			<div class="top-header" style="background: none;">
+				<div class="image-logo-1 f-left">
+						<a href="index.html" title="Jogja Tech - Brings Out The Best Innovative With Technology"><img src="img/logo-1-kecil.png" width="200px"></a>
+				</div>
+				<div class="navigation3">
+					<div class="btn-nav drp" style="position:fixed;">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+				</div>
+				<div class="clear-both"></div>
+			</div>
+
+
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+			<div id="header-caption">
+					<center>
+						<hr>
+						<div class="ovhidden"><div class="color-layer1"></div><div class="capt-header-1" id="out">Galeri</div></div><br>
+					<div class="ovhidden2"><div class="color-layer2"></div><div class="capt-header-2" id="out2">Dokumentasi kegiatan - kegiatan J-Tech</div></div>
+					<hr>
+					</center>
+			</div>
+			<script type="text/javascript">
+				$("#learn-more-head").click(function(){
+					$path = $("#here-learn").offset().top;
+					$("html").animate({scrollTop:$path},"slow");
+				});
+
+			</script>
+			<script type="text/javascript">
+				 $("html").ready(
+				 	function slideOne(){
+				 		$(".color-layer1").delay(100).animate({"width":"100%"},"200");
+				 		$(".color-layer1").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-1").delay(100).animate({"left":"0%"},"fast");
+
+				 		$(".color-layer2").delay(1000).animate({"width":"100%"},"slow");
+				 		$(".color-layer2").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-2").delay(1200).animate({"left":"0%"},"fast");
+
+				 		$("#more-header").delay(1400).animate({"left":"0px"},"fast");
+				 });
+			</script>
+		</div>
+	</div>
+	</div>
+
+	
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+
+	<div class="clear-both"></div>
+
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+	<div class="location-web">
+		<a href="index.html">Beranda</a>
+		 <span class="next-bc"></span> 
+		<font color="#222">Galeri</font>
+	</div>
+		<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	
+	<div class="navigation">
+		<div id="block" class="hiden">
+			<center>
+				<!--AVATAR-->
+				<div class="avatar">
+					<div class="back-avatar">
+						<div class="img-avatar">
+							<img src="img/avatar1.png" width="100px" height="100px">
+						</div>
+					</div>
+				</div>
+				<div class="name-user" id="diklik">
+					Pengunjung
+				</div>
+				<div class="dark-bg-user" style="z-index: 3000;display: none;"></div>
+					<div class="popup-user" style="display: none;z-index: 3200;">
+					<div class="avatar" style="width: 280px;overflow: hidden;">
+						<div class="back-avatar">
+							<div class="img-avatar2">
+								<center><img src="img/avatar1.png" width="130px" height="130px"></center>
+							</div>
+						</div>
+					</div>
+					<div class="name-user" id="diklik" style="padding: 15px;">
+						Pengunjung
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Masuk</a></center>
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Daftar</a></center>
+					</div>
+					</div>	
+				<script type="text/javascript">
+					$("#diklik").click(function(){
+						$(".popup-user").fadeIn();
+						$(".dark-bg-user").show();
+					});
+
+					$(".dark-bg-user").click(function(){
+						$(".popup-user").fadeOut();
+						$(".dark-bg-user").fadeOut();
+					});
+				</script>
+				<!---A-V-A-T-A-R-->
+				<li><a href="index.html"><img src="img/beranda.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Beranda</a></li>
+				<li><a href="acara.html" ><img src="img/acara.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Acara</a>	</li>
+				<li><a href="galeri.html"  id="active"><img src="img/galeri.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Galeri</a></li>
+				<li><a href="kontak.html" ><img src="img/kontak.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Kontak</a></li>
+				<li><a href="tentang.html" ><img src="img/tentang.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Tentang</a></li>
+				<div class="close-btn">
+					<a href="javascript:void(0)" style="background: none;border:none;" id="close"><img src="img/close.png" width="40px" height="40px"></a>
+				</div>
+			</center>
+		</div>
+		<script type="text/javascript" src="slide.js">
+		</script>
+	</div>
+	<div class="dark-bg" style="display: none;">
+		<script type="text/javascript">
+			$(".dark-bg").click(function(){
+				$('.navigation').animate({left: '-100%'},300);
+				$(".drp").animate({right: '5%'},300);
+				$(".dark-bg").css("display","none");
+			});
+		</script>
+	</div>
+	
+
+
+	<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+
+	<center>
+		<div id="galeri" class="animate-scroll scroll-css">
+			<h1>Galeri</h1>
+			<hr>
+			<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+			<br>
+			<center>Dokumentasi kegiatan J-Tech</center>
+			<div class="image-all">
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i1"><img src="img/galeri/1.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Coding bersama mahasiswa
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i2"><img src="img/galeri/2.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Coding bersama anak SMA / SMK
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i3"><img src="img/galeri/3.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Seminar Startup Nasional
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i4"><img src="img/galeri/4.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Workshop Game Devlopment
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+
+
+
+
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i5"><img src="img/galeri/5.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Seminar Lenovo
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i6"><img src="img/galeri/6.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Pemenang lomba Web Design 2017
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i7"><img src="img/galeri/7.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Workshop Web Programming
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i8"><img src="img/galeri/8.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Code Trip
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i9"><img src="img/galeri/9.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Coding trip #2
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i10"><img src="img/galeri/10.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Web Design Competition
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i11"><img src="img/galeri/11.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Web Design Competition
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+					<div class="image inline-block">
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-bottom:-5px;-webkit-transform: rotate(180deg);">
+						</div>
+							<div class="img-style">
+								<a href="javascript:void(0)" id="i12"><img src="img/galeri/12.jpg" width="300px" height="210px" class="images"></a>
+								<div class="image-caption">
+									Pemenang Web Design Competition
+								</div>
+							</div>
+						<div>
+							<img src="img/shadow-1.png" width="300px" style="margin-top: -5px;">
+						</div>
+					</div>
+				</div>
+			</div>
+		<br><br>
+		<div class="more-image">
+			
+		</div>
+		<div class="big-image" id="image-big-show" style="display: none;">
+			<div class="dark-back-img"></div>
+			<div class="close">
+				<img src="img/close.png" width="50px">
+			</div>
+			<div class="next">
+				>
+			</div>
+			<div class="prev">
+				<
+			</div>
+			<div class="img-big">
+				<img src="" width="75%" height="90%" class="images" id="big-res">
+			</div>
+		</div>
+		<script type="text/javascript" src="img-slide-2.js"></script>
+			<script type="text/javascript">
+				$('.dark-back-img').click(function(){
+					$('.big-image').fadeOut();
+				});
+			</script>
+	</center>
+
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+
+	<script type="text/javascript">
+		$("html").ready(function(){
+			$(window).scroll(function(){
+
+				if($("html").scrollTop() >= 380){
+					$(".animate-scroll").css({"-webkit-transform":"scale(1,1)"});
+				}		
+			});
+		});
+	</script>
+
+
+
+
+	
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+
+
+	<img src="img/shadow-3.png" width="100%" style="-webkit-transform: rotate(180deg);">
+	<div class="footer">
+		<div class="batas-footer">
+			<center>
+				<h2>Jogja Tech - Brings Out The Best Innovative With Technology</h2>
+			</center>
+			<img src="img/shadow-3.png" width="100%" style="position: absolute;left: 0;">	
+		</div>
+		<div style="background: #222;">
+			<center>
+			<div class="footer-box inline-block logo">
+				<h2>Dipersembahkan oleh</h2>
+				<div><img src="img/smk3yk.png" width="50px" height="50px"></div>
+				<div><img src="img/logo-1-kecil.png" width="100px" height="40px"></div>
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Site Map</h2>
+					<div class="navigation2">
+						<a href="index.html" >Beranda</a>
+						<a href="acara.html">Acara</a>	
+						<a href="galeri.html" id="active2">Galeri</a>
+						<a href="kontak.html">Kontak</a>
+						<a href="tentang.html">Tentang</a>
+						<div class="clear-both"></div>
+					</div>	
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Ikuti kami</h2>
+					<div class="navigation2">
+						<a href="#" style="background: #3b5999; width: 30%;text-align:center;margin:10px;display: inline-block;">Facebook</a>
+						<a href="#" style="background: #e4405f; width: 30%;text-align:center;margin:10px;display: inline-block;">Instagram</a>	
+						<a href="#" style="background: #cd201f; width: 30%;text-align:center;margin:10px;display: inline-block;">Youtube</a>
+						<a href="#" style="background: #55acee; width: 30%;text-align:center;margin:10px;display: inline-block;">Tweeter</a>
+						<a href="#" style="background: #25D366; width: 30%;text-align:center;margin:10px;display: inline-block;">Whats App</a>
+						<a href="#" style="background: #00c300; width: 30%;text-align:center;margin:10px;display: inline-block;">Line</a>
+						<div class="clear-both"></div>
+					</div>	
+				</div>
+				<div class="footer-box inline-block">
+				<h2>Temukan Kami</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1152418093893!2d110.36383881422094!3d-7.77760367931727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58378e231e21%3A0x34bffdcc5d618a71!2sSMK+Negeri+3+Yogyakarta!5e0!3m2!1sid!2sid!4v1518233891601" width="80%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div style="padding: 10px;">
+					Jl. R.W. Monginsidi No.2A, Jetis, Kota Yogyakarta
+				</div>
+			</div>
+			<div class="clear-both"></div>
+			<div class="batas-footer">
+				
+					Copyright &copy; 2018 All-rights reserved. - Alfian - SMK N 3 YOGYAKARTA
+				</center>	
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+</body>
+</html>

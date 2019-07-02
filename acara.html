@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTech - Jogja Technology Comunity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="img/j-icon.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+
+
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+
+	<div class="layer">
+		<div class="header-pict"  style="background: url(img/event.jpg)bottom;background-size:cover;background-attachment: fixed;">
+		<div id="dark">
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+
+
+			<div class="top-header" style="background: none;">
+				<div class="image-logo-1 f-left">
+						<a href="index.html" title="Jogja Tech - Brings Out The Best Innovative With Technology"><img src="img/logo-1-kecil.png" width="200px"></a>
+				</div>
+				<div class="navigation3">
+					<div class="btn-nav drp" style="position:fixed;">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+				</div>
+				<div class="clear-both"></div>
+			</div>
+
+
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+			<div id="header-caption">
+					<center>
+						<hr>
+						<div class="ovhidden"><div class="color-layer1"></div><div class="capt-header-1" id="out">Acara</div></div><br>
+					<div class="ovhidden2"><div class="color-layer2"></div><div class="capt-header-2" id="out2">Info <i>event</i> / acara J-Tech</div></div>
+					<hr>
+					</center>
+			</div>
+			<script type="text/javascript">
+				$("#learn-more-head").click(function(){
+					$path = $("#here-learn").offset().top;
+					$("html").animate({scrollTop:$path},"slow");
+				});
+
+			</script>
+			<script type="text/javascript">
+				 $("html").ready(
+				 	function slideOne(){
+				 		$(".color-layer1").delay(100).animate({"width":"100%"},"200");
+				 		$(".color-layer1").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-1").delay(100).animate({"left":"0%"},"fast");
+
+				 		$(".color-layer2").delay(1000).animate({"width":"100%"},"slow");
+				 		$(".color-layer2").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-2").delay(1200).animate({"left":"0%"},"fast");
+
+				 		$("#more-header").delay(1400).animate({"left":"0px"},"fast");
+				 });
+				 
+			</script>
+		</div>
+	</div>
+	</div>
+	
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+
+	<div class="clear-both"></div>
+
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+	<div class="location-web">
+		<a href="index.html">Beranda</a>
+		 <span class="next-bc"></span> 
+		<font color="#222">Acara</font>
+	</div>
+
+		<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	
+	<div class="navigation">
+		<div id="block" class="hiden">
+			<center>
+				<!--AVATAR-->
+				<div class="avatar">
+					<div class="back-avatar">
+						<div class="img-avatar">
+							<img src="img/avatar1.png" width="100px" height="100px">
+						</div>
+					</div>
+				</div>
+				<div class="name-user" id="diklik">
+					Pengunjung
+				</div>
+				<div class="dark-bg-user" style="z-index: 3000;display: none;"></div>
+					<div class="popup-user" style="display: none;z-index: 3200;">
+					<div class="avatar" style="width: 280px;overflow: hidden;">
+						<div class="back-avatar">
+							<div class="img-avatar2">
+								<center><img src="img/avatar1.png" width="130px" height="130px"></center>
+							</div>
+						</div>
+					</div>
+					<div class="name-user" id="diklik" style="padding: 15px;">
+						Pengunjung
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Masuk</a></center>
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Daftar</a></center>
+					</div>
+					</div>	
+				<script type="text/javascript">
+					$("#diklik").click(function(){
+						$(".popup-user").fadeIn();
+						$(".dark-bg-user").show();
+					});
+
+					$(".dark-bg-user").click(function(){
+						$(".popup-user").fadeOut();
+						$(".dark-bg-user").fadeOut();
+					});
+				</script>
+				<!---A-V-A-T-A-R-->
+				<li><a href="index.html"><img src="img/beranda.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Beranda</a></li>
+				<li><a href="acara.html"  id="active"><img src="img/acara.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Acara</a>	</li>
+				<li><a href="galeri.html" ><img src="img/galeri.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Galeri</a></li>
+				<li><a href="kontak.html" ><img src="img/kontak.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Kontak</a></li>
+				<li><a href="tentang.html" ><img src="img/tentang.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Tentang</a></li>
+				<div class="close-btn">
+					<a href="javascript:void(0)" style="background: none;border:none;" id="close"><img src="img/close.png" width="40px" height="40px"></a>
+				</div>
+			</center>
+		</div>
+		<script type="text/javascript" src="slide.js">
+		</script>
+	</div>
+	<div class="dark-bg" style="display: none;">
+		<script type="text/javascript">
+			$(".dark-bg").click(function(){
+				$('.navigation').animate({left: '-100%'},300);
+				$(".drp").animate({right: '5%'},300);
+				$(".dark-bg").css("display","none");
+			});
+		</script>
+	</div>
+
+
+	<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+
+	
+
+
+<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+	<center>
+			<h1>Acara</h1>
+			Info <i>event</i> kegiatan J-Tech
+			<hr>
+			<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+		</center>
+	<center>
+	<div class="poster-event">
+			
+	<!--.................... BATAS...........................-->
+	<!--.................... BATAS...........................-->
+	
+	<img src="img/shadow-4.png" width="100%" style="margin-bottom: -10px;-webkit-transform: rotate(180deg);">
+	
+	<div class="batas">
+		<center>	
+			<div class="box-1 inline-block box">
+				<a href="#acaraevent"  id="link" class="link1 allBtn"><img src="img/logo/code.png" width="130px"><br>
+				<h2><i>Coding Together</i></h2></a>
+			</div>
+
+			<div class="box-2 inline-block box">
+				<a href="#acaraevent" id="link"  class="link2 allBtn"><img src="img/logo/code-trip.png" width="130px"><br>
+				<h2><i>Coding Trip</i></h2></a>
+			</div>
+
+			<div class="box-3 inline-block box" id="link">
+				<a href="#acaraevent"  class="link3 allBtn"><img src="img/logo/competition.png" width="130px"><br>
+				<h2><i>Competition</i></h2></a>
+			</div>
+
+			<div class="box-4 inline-block box">
+				<a href="#acaraevent" id="link"  class="link4 allBtn"><img src="img/logo/seminar.png" width="130px"><br>
+				<h2><i>Seminar</i></h2></a>
+			</div>
+
+			<div class="box-5 inline-block box">
+				<a href="#acaraevent"  id="link"  class="link5 allBtn"><img src="img/logo/workshop.png" width="130px"><br>
+				<h2><i>Workshop</i></h2></a>
+			</div>
+		</center>
+	</div>
+	<script type="text/javascript">
+			$("a[href='#acaraevent']").click(function(){
+				$path = $("#here").offset().top;
+				$("html").animate({scrollTop:$path},"slow");
+			});
+	</script>
+	
+	<img src="img/shadow-4.png" width="100%" style="margin-top: -3px;">
+	<div id="here" class="here"></div>
+			<div class="form-search">
+				<form method="get">
+					<input type="text" name="search" placeholder="Cari acara">
+					<button style="font-size: 15pt;">Cari</button>
+				</form>
+			</div>
+			
+			<br><BR>
+			
+			<br>
+
+	<!--.................... BATAS...........................-->
+	<!--.................... BATAS...........................-->
+			<div id="all" style="display: none;">
+				<a href="javascript:void(0)" class="tombol-semua" id="showAll">Semua Kategori</a>
+			</div>
+			<div id="workshop" class="tabs workshop">
+				<div class="kategori">Kategori : Workshop</div>
+					
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/1.jpg"><img src="img/event/1.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Workshop Fotografi</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Depan bank Indonesia 0Km
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/4.jpg"><img src="img/event/4.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Literasi Visual</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Kelas Pagi Yogyakarta
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/6.jpg"><img src="img/event/6.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Pameran Fotografi</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Kelas pagi Yogyakarta
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+			</div>
+
+
+
+
+			<div id="competition" class="tabs competition">
+				<div class="kategori">Kategori : Lomba</div>
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/10.jpg"><img src="img/event/10.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Lomba Iklan Masyarakat</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : UTY
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/3.jpg"><img src="img/event/3.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Lomba Poster Design</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : UTY
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/5.jpg"><img src="img/event/5.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>IoT Design Competition</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Universitas Gajah Mada
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+			</div>
+
+
+			
+			<div id="codeTrip" class="tabs codeTrip">
+				<div class="kategori">Kategori : Code Trip</div>
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/8.jpg"><img src="img/event/8.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Journey</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Depan bank Indonesia 0Km
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Coding Trip</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+			</div>
+			<div id="seminar" class="tabs seminar">
+				<div class="kategori">Kategori : Seminar</div>
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/9.jpg"><img src="img/event/9.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>DC Yogyakarta</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Jogja Digital Valley
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Seminar</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+			</div>
+			<div id="code" class="tabs code">
+				<div  style="padding: 100px;"><font size="20pt" color="grey"><b>Segera hadir</b></font></div>
+			</div>
+			
+	</div>
+</center>
+
+
+
+
+
+
+
+
+
+<div class="all-poster">
+			<center>
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/1.jpg"><img src="img/event/1.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Workshop Fotografi</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Depan bank Indonesia 0Km
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/4.jpg"><img src="img/event/4.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Literasi Visual</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Kelas Pagi Yogyakarta
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/7.jpg"><img src="img/event/7.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Digital Imaging</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Kelas pagi Yogyakarta
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/6.jpg"><img src="img/event/6.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Pameran Fotografi</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Kelas pagi Yogyakarta
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Workshop</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/10.jpg"><img src="img/event/10.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Lomba Iklan Masyarakat</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : UTY
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/3.jpg"><img src="img/event/3.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Lomba Poster Design</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : UTY
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/5.jpg"><img src="img/event/5.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>IoT Design Competition</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Universitas Gajah Mada
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Competition</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/8.jpg"><img src="img/event/8.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>Journey</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Depan bank Indonesia 0Km
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Coding Trip</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+
+
+
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<!--AAAAAAAAAAAAAAAAAAA POSTER AAAAAAAAAAAAAAAAAAA-->
+					<div class="poster">
+						
+						<div><a href="img/event/9.jpg"><img src="img/event/9.jpg" width="230px" class="imgpstr"></a></div>
+						<div class="paragraf">
+						<h2>DC Yogyakarta</h2>
+
+						
+							
+						</div>
+						
+							<br>
+						<div class="bottom">
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="lokasi inline-block">
+								<img src="img/lokasi.png" width="30px" style="position: absolute;top: 10%;left: 40%;">
+
+								<div style="position: absolute;width: 360px;" class="sticky">
+									Lokasi : Depan bank Indonesia 0Km
+								</div>
+							</a>
+							</div>
+							<div style="position: relative;">
+								<a href="javascript:void(0)" class="tanggal inline-block">
+								<center>Seminar</center>
+								
+							</a>
+							</div>
+							
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+					<!--vvvvvvvvvvvvvvvvvvvPOSTERvvvvvvvvvvvvvvvvvvv-->
+</div>
+	<script>
+		$(".link1").click(function(){
+			$(".code").fadeIn();
+			$(".codeTrip").fadeOut();
+			$(".competition").fadeOut();
+			$(".seminar").fadeOut();
+			$(".workshop").fadeOut();
+			$(".all-poster").fadeOut();
+			
+		});
+		$(".link2").click(function(){
+			$(".code").fadeOut();
+			$(".codeTrip").fadeIn();
+			$(".competition").fadeOut();
+			$(".seminar").fadeOut();
+			$(".workshop").fadeOut();
+			$(".all-poster").fadeOut();
+			
+		});
+		$(".link3").click(function(){
+			$(".code").fadeOut();
+			$(".codeTrip").fadeOut();
+			$(".competition").fadeIn();
+			$(".seminar").fadeOut();
+			$(".workshop").fadeOut();
+			$(".all-poster").fadeOut();
+			
+		});
+		$(".link4").click(function(){
+			$(".code").fadeOut();
+			$(".codeTrip").fadeOut();
+			$(".competition").fadeOut();
+			$(".seminar").fadeIn();
+			$(".workshop").fadeOut();
+			$(".all-poster").fadeOut();
+			
+		});
+		$(".link5").click(function(){
+			$(".code").fadeOut();
+			$(".codeTrip").fadeOut();
+			$(".competition").fadeOut();
+			$(".seminar").fadeOut();
+			$(".workshop").fadeIn();
+			$(".all-poster").fadeOut();
+			
+		});
+		$(".allBtn").click(function(){
+			$("#all").fadeIn();
+		});
+		$("#showAll").click(function(){
+			$(".all-poster").fadeIn();
+			$(".code").fadeOut();
+			$(".codeTrip").fadeOut();
+			$(".competition").fadeOut();
+			$(".seminar").fadeOut();
+			$(".workshop").fadeOut();
+			$("#all").fadeOut();
+		});
+	</script>
+
+
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+
+
+
+
+
+
+
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+
+
+	<img src="img/shadow-3.png" width="100%" style="-webkit-transform: rotate(180deg);">
+	<div class="footer">
+		<div class="batas-footer">
+			<center>
+				<h2>Jogja Tech - Brings Out The Best Innovative With Technology</h2>
+			</center>
+			<img src="img/shadow-3.png" width="100%" style="position: absolute;left: 0;">	
+		</div>
+		<div style="background: #222;">
+			<center>
+			<div class="footer-box inline-block logo">
+				<h2>Dipersembahkan oleh</h2>
+				<div><img src="img/smk3yk.png" width="50px" height="50px"></div>
+				<div><img src="img/logo-1-kecil.png" width="100px" height="40px"></div>
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Site Map</h2>
+					<div class="navigation2">
+						<a href="index.html" >Beranda</a>
+						<a href="acara.html" id="active2">Acara</a>	
+						<a href="galeri.html">Galeri</a>
+						<a href="kontak.html">Kontak</a>
+						<a href="tentang.html">Tentang</a>
+						<div class="clear-both"></div>
+					</div>	
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Ikuti kami</h2>
+					<div class="navigation2">
+						<a href="#" style="background: #3b5999; width: 30%;text-align:center;margin:10px;display: inline-block;">Facebook</a>
+						<a href="#" style="background: #e4405f; width: 30%;text-align:center;margin:10px;display: inline-block;">Instagram</a>	
+						<a href="#" style="background: #cd201f; width: 30%;text-align:center;margin:10px;display: inline-block;">Youtube</a>
+						<a href="#" style="background: #55acee; width: 30%;text-align:center;margin:10px;display: inline-block;">Tweeter</a>
+						<a href="#" style="background: #25D366; width: 30%;text-align:center;margin:10px;display: inline-block;">Whats App</a>
+						<a href="#" style="background: #00c300; width: 30%;text-align:center;margin:10px;display: inline-block;">Line</a>
+						<div class="clear-both"></div>
+					</div>	
+				</div>
+				<div class="footer-box inline-block">
+				<h2>Temukan Kami</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1152418093893!2d110.36383881422094!3d-7.77760367931727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58378e231e21%3A0x34bffdcc5d618a71!2sSMK+Negeri+3+Yogyakarta!5e0!3m2!1sid!2sid!4v1518233891601" width="80%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div style="padding: 10px;">
+					Jl. R.W. Monginsidi No.2A, Jetis, Kota Yogyakarta
+				</div>
+			</div>
+			<div class="clear-both"></div>
+			<div class="batas-footer">
+				
+					Copyright &copy; 2018 All-rights reserved. - Alfian - SMK N 3 YOGYAKARTA
+				</center>	
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTech - Jogja Technology Comunity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="img/j-icon.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+
+	<!--....................SLIDERCOOL...........................-->
+	<!--....................SLIDERCOOL...........................-->
+	
+	<div class="main animate-scroll scroll-css">
+		<a href="index.html #back-here" class="back-slide">
+			<div class="close">
+				<img src="img/close.png" width="50px">
+			</div>
+		</a>
+		<div class="slider">
+				<div class="ver" id="ver"></div>
+				<div class="one">
+					1
+				</div>
+				<div class="data1">
+					<div class="isi-data1">
+						<h2 style="text-align: left;">Mengapa Teknologi di Jogja perlu dikembangkan?</h2>
+						
+						<p>
+							Di era modern sekarang ini hampir semua hal yang kita lakukan memerlukan teknologi. Teknologi sekarang sangat banyak dibutuhkan karena dapat membantu memperingan pekerjaan setiap orang. Bahkan teknologi bisa menjadi sumber penghasilan. 
+						</p>
+					</div>
+				</div>
+
+				<div class="two">
+					2
+				</div>
+				<div class="data2">
+					
+					<p>
+						Beberapa orang mungkin masih ada yang belum paham tentang teknologi lebih dalam seperti Coding , Game Devlopment , dan lain - lain. Oleh karena itu di kota Jogja ini khususnya kita harus mengembangkan kemampuan masyarakat akan teknologi yangada disekitar kita. Mengapa demikian? Karena agar terciptanya kemudahan manusia maka teknologi sangat penting dikembangkan dikalangan masyarakat.
+					</p>
+				</div>
+				<div class="three">
+					3
+				</div>
+				<div class="data3">
+					
+					<p>
+						Agar tidak terjadinya gaptek (gagap teknologi) sehingga masyarakat tidak ketinggalan zaman dan dapat menyesuaikan dengan zamannya. Mengingat perkembangan teknologi yang semakin pesat maka perlulah pelatihan teknologi kepada masyarakat khususnya kalangan pelajar.
+					</p>
+				</div>
+				<div class="four">
+					4
+				</div>
+				<div class="data4">
+					
+					<p>
+						Hadirlah sebuah organisasi J-Tech yang mengembangkan teknologi di Jogja khususnya supaya Jogja
+						kedepannya bisa menjadi kota cerdas atau SMART CITY. Teknologi harusdikuasai oleh setiap orang dan jangan sampai teknologi menguasai diri kita sendiri.
+					</p>
+				</div>
+				<div class="dot">
+					<a href="javascript:void(0)"> <div class="dots1"></div> </a>
+					<a href="javascript:void(0)"> <div class="dots2"></div></a>
+					<a href="javascript:void(0)"> <div class="dots3"></div></a>
+					<a href="javascript:void(0)"> <div class="dots4"></div></a>
+				</div>
+				<script type="text/javascript">
+					$(".dot a:nth-child(1)").click(function(){
+						$('.slider').css({"left" : "15%"});
+						$('.data1').fadeIn();
+						$('.data2').fadeOut();
+						$('.data3').fadeOut();
+						$('.data4').fadeOut();
+						$('.ver').css({"left":"55%"});
+						$('.dots1').css({"background":"white"});
+						$('.dots2').css({"background":"black"});
+						$('.dots3').css({"background":"black"});
+						$('.dots4').css({"background":"black"});
+					});
+					$(".dot a:nth-child(2)").click(function(){
+						$('.slider').css({"left":"-40%"});
+						$('.data1').fadeOut();
+						$('.data2').fadeIn();
+						$('.data3').fadeOut();
+						$('.data4').fadeOut();
+						$('.ver').css({"left":"20%"});	
+						$('.dots1').css({"background":"black"});
+						$('.dots2').css({"background":"white"});
+						$('.dots3').css({"background":"black"});
+						$('.dots4').css({"background":"black"});
+					});
+					$(".dot a:nth-child(3)").click(function(){
+						$('.slider').css({"left" : "-180%"});
+						$('.data1').fadeOut();
+						$('.data2').fadeOut();
+						$('.data3').fadeIn();
+						$('.data4').fadeOut();	
+						$('.ver').css({"left":"85%"});	
+						$('.dots1').css({"background":"black"});
+						$('.dots2').css({"background":"black"});
+						$('.dots3').css({"background":"white"});
+						$('.dots4').css({"background":"black"});
+
+					});
+					$(".dot a:nth-child(4)").click(function(){
+						$('.slider').css({"left" : "-240%"});
+						$('.data1').fadeOut();
+						$('.data2').fadeOut();
+						$('.data3').fadeOut();
+						$('.data4').fadeIn();	
+						$('.ver').css({"left":"55%"});
+						$('.dots1').css({"background":"black"});
+						$('.dots2').css({"background":"black"});
+						$('.dots3').css({"background":"black"});
+						$('.dots4').css({"background":"white"});
+					});
+				</script>
+				<script type="text/javascript">
+					$("html").ready(function(){
+						$(".animate-scroll").css({"transform":"scale(1,1)"});
+					});
+				</script>
+		</div>
+	</div>
+	<!--....................SLIDERCOOL...........................-->
+	<!--....................SLIDERCOOL...........................-->
+</body>
+</html>

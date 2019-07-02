@@ -1,0 +1,285 @@
+/*
+*
+*
+---- Header
+*
+*
+*/
+@media(max-width: 1250px){
+	#ver{
+		display: none;
+	}
+}
+@media(max-width: 1200px){
+	.img-style img{
+		width: 400px;
+		height: 300px;
+	}
+	.poster{
+		width: 300px;
+		height: 100%;
+	}
+	.dot{
+		top: 95%;
+		left: 41%;
+	}
+	.one,.two,.three,.four{
+		font-size: 150pt;
+		position: relative;
+		bottom: 90%;
+		line-height: 8cm;
+	}
+}
+@media(max-width: 600px){
+	.data1,.data2,.data3,.data4{
+		font-size: 14pt;
+		text-align: justify;
+		width: 80%;
+		top: 60%;
+		left: 50%;
+	}
+	h1{
+		font-size: 20pt;
+	}
+	.img-style img{
+		width: 300px;
+		height: 210px;
+	}
+}
+@media(max-width: 1000px){
+	#big-res{
+		height: 50%;
+		width: 100%;
+		z-index: 1000;
+	}
+	.next, .prev{
+		z-index: 2000;
+	}
+	.box-intro img{
+		width: 220px;
+		height: 160px;
+	}
+}
+
+@media(max-width:700px){
+	.image-logo-1 img{
+		width: 180px
+	}
+	.drp{
+		right: 3%;
+		width: 40px;
+	}
+	.form-search{
+		float: none;
+	}
+	.form-search input[type="text"]{
+		width:100%;
+		margin:0 auto;
+		border-radius: 0;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.form-search input[type="text"]:focus{
+		width: 100%;
+	}
+	.form-search button{
+		width: 100%;
+		border-radius: 0;
+	}
+}
+@media(max-width: 1000px){
+	.medsos a{
+		width: 70%;
+		margin-top: 20px;
+		margin: 0px;
+	}
+}
+
+/*
+*
+*
+---- Header
+*
+*
+*/
+
+
+
+/*
+*
+*
+---- NAV
+*
+*
+*/
+
+
+@media(max-width: 500px){
+	#drop-down{
+		display: block;
+	}
+	#none{
+		display: block;
+	}
+	.tampil{
+		display: block;
+	}
+	#block a{
+		width: 100%;
+	}
+	.show{
+		width: 100%;
+		display: block;
+	}
+	#header-caption{
+		margin-top: 10%;
+	}
+	.box-intro p{
+		font-size: 12pt;
+		padding: 0px;
+		text-align: justify;
+	}
+	.penjelasan{
+		padding: 5px;
+		margin: 4px;
+	}
+}
+
+
+
+/*
+*
+*
+---- NAV
+*
+*
+*/
+
+
+/*
+*
+*
+---- Acara
+*
+*
+*/
+
+
+
+@media(max-width: 1170px){
+	#br br{
+		display: none;
+	}
+	.chatnow{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-right: 10;
+		margin-left: 10;
+		width: 300px;
+	}
+	.chatnow:before{
+		width: 300px;
+	}
+	#res-lc{
+		background: #aaa;
+	}
+	.box{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media(max-width: 900px){
+	.penjelasan-why p{
+		margin: 20px;
+		font-size: 12pt;
+	}
+	.pengantar{
+		margin: 30px;
+	}
+}
+@media(max-width: 600px){
+	.chatnow{
+		width: 300px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.shadow-2{
+		display: none;
+	}
+	hr{
+		margin-bottom: 20px;
+	}
+	.navigation{
+		width: 100%;
+	}
+	.poster{
+		width: 94%;
+		height: 100%;
+	}
+}
+@media(max-width: 960px){
+	.box{
+		width: 100%;
+		position: relative;
+		background: #222;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.box h2{
+		color: white;
+	}
+	.box:hover{
+		-webkit-transform: none;
+	}
+	.box img{
+		float: left;
+		width: 40px;
+		margin: 20px;
+		background: #eee;
+		border-radius: 10px;
+		padding: 10px;
+	}
+	.batas{
+		padding: 0px;
+	}
+	.tetap-terhubung{
+		padding: 0px;
+		margin: 0;
+	}
+	.form{
+		width: auto;
+		font-size: 12pt;
+		padding: 0px;
+	}
+	.head-form{
+		font-size: 10pt;
+	}
+	.form input[type="text"], .form input[type="email"]{
+		font-size: 12pt;
+	}
+
+}
+
+
+
+/*
+*
+*
+---- Acara
+*
+*
+*/
+@media(max-width: 970px){
+	.capt-header-1{
+		font-size: 40pt;
+	}
+	.capt-header-2{
+		font-size: 20pt;
+		padding-right: 15px;
+	}
+}
+@media(max-width: )

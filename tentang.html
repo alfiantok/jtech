@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTech - Jogja Technology Comunity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="img/j-icon.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+
+	<div class="layer">
+		<div class="header-pict"  style="background: url(img/about.jpg)bottom;background-size:cover;background-attachment: fixed;">
+		<div id="dark">
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+
+
+			<div class="top-header" style="background: none;">
+				<div class="image-logo-1 f-left">
+						<a href="index.html" title="Jogja Tech - Brings Out The Best Innovative With Technology"><img src="img/logo-1-kecil.png" width="200px"></a>
+				</div>
+				<div class="navigation3">
+					<div class="btn-nav drp" style="position:fixed;">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+				</div>
+				<div class="clear-both"></div>
+			</div>
+
+
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+			<div id="header-caption">
+					<center>
+						<hr>
+						<div class="ovhidden"><div class="color-layer1"></div><div class="capt-header-1" id="out">Tentang</div></div><br>
+					<div class="ovhidden2"><div class="color-layer2"></div><div class="capt-header-2" id="out2">Ketahui lebih lanjut mengenai organisasi J-Tech</div></div>
+					<hr>
+					</center>
+			</div>
+			<script type="text/javascript">
+				$("#learn-more-head").click(function(){
+					$path = $("#here-learn").offset().top;
+					$("html").animate({scrollTop:$path},"slow");
+				});
+
+			</script>
+			<script type="text/javascript">
+				 $("html").ready(
+				 	function slideOne(){
+				 		$(".color-layer1").delay(100).animate({"width":"100%"},"200");
+				 		$(".color-layer1").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-1").delay(100).animate({"left":"0%"},"fast");
+
+				 		$(".color-layer2").delay(1000).animate({"width":"100%"},"slow");
+				 		$(".color-layer2").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-2").delay(1200).animate({"left":"0%"},"fast");
+
+				 		$("#more-header").delay(1400).animate({"left":"0px"},"fast");
+				 });
+			</script>
+		</div>
+	</div>
+	</div>
+	
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+
+	<div class="clear-both"></div>
+	
+	<div class="location-web">
+		<a href="index.html">Beranda</a>
+		 <span class="next-bc"></span> 
+		<font color="#222">Tentang</font>
+	</div>
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+
+
+
+	<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	
+	<div class="navigation">
+		<div id="block" class="hiden">
+			<center>
+				<!--AVATAR-->
+				<div class="avatar">
+					<div class="back-avatar">
+						<div class="img-avatar">
+							<img src="img/avatar1.png" width="100px" height="100px">
+						</div>
+					</div>
+				</div>
+				<div class="name-user" id="diklik">
+					Pengunjung
+				</div>
+				<div class="dark-bg-user" style="z-index: 3000;display: none;"></div>
+					<div class="popup-user" style="display: none;z-index: 3200;">
+					<div class="avatar" style="width: 280px;overflow: hidden;">
+						<div class="back-avatar">
+							<div class="img-avatar2">
+								<center><img src="img/avatar1.png" width="130px" height="130px"></center>
+							</div>
+						</div>
+					</div>
+					<div class="name-user" id="diklik" style="padding: 15px;">
+						Pengunjung
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Masuk</a></center>
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Daftar</a></center>
+					</div>
+					</div>	
+				<script type="text/javascript">
+					$("#diklik").click(function(){
+						$(".popup-user").fadeIn();
+						$(".dark-bg-user").show();
+					});
+
+					$(".dark-bg-user").click(function(){
+						$(".popup-user").fadeOut();
+						$(".dark-bg-user").fadeOut();
+					});
+				</script>
+				<!---A-V-A-T-A-R-->
+				<li><a href="index.html"><img src="img/beranda.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Beranda</a></li>
+				<li><a href="acara.html" ><img src="img/acara.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Acara</a>	</li>
+				<li><a href="galeri.html" ><img src="img/galeri.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Galeri</a></li>
+				<li><a href="kontak.html" ><img src="img/kontak.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Kontak</a></li>
+				<li><a href="tentang.html"  id="active"><img src="img/tentang.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Tentang</a></li>
+				<div class="close-btn">
+					<a href="javascript:void(0)" style="background: none;border:none;" id="close"><img src="img/close.png" width="40px" height="40px"></a>
+				</div>
+			</center>
+		</div>
+		<script type="text/javascript" src="slide.js">
+		</script>
+	</div>
+	<div class="dark-bg" style="display: none;">
+		<script type="text/javascript">
+			$(".dark-bg").click(function(){
+				$('.navigation').animate({left: '-100%'},300);
+				$(".drp").animate({right: '5%'},300);
+				$(".dark-bg").css("display","none");
+			});
+		</script>
+	</div>
+	
+
+
+	<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+
+		<!--.................... INTRO...........................-->
+	<!--.................... INTRO...........................-->
+
+
+	<div>
+		<center>	
+			<div class="penjelasan animate-scroll scroll-css"  style="margin: 0;padding: 0;">
+				<div>
+		<center>	
+					<h1>
+						J-TECH
+					</h1>
+					<hr>
+					<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+			<div class="penjelasan">
+				<div class="box-intro">
+					<div class="inline-block">
+						<img src="img/galeri/1.jpg" width="300px" height="200px" style="box-shadow: 3px 3px 10px rgba(0,0,0,0.5)">
+						<img src="img/jtech.png" width="300px" height="200px" class="images" style="-webkit-transform: scale(1.1,1.1);box-shadow: 3px 3px 10px rgba(0,0,0,0.5)">
+						<img src="img/galeri/2.jpg" width="300px" height="200px" style="box-shadow: 3px 3px 10px rgba(0,0,0,0.5)">
+					</div>
+					<p style="padding: 20px;">
+						J-Tech (Jogja Tech) adalah organisasi yang bergerak dibidang pengembangan teknologi di Jogja khususnya. Organisasi ini berpusat di SMK N 3 Yogyakarta dan memiliki 10 anggota inti. J-Tech juga bekerja sama membantu publikasi dan mensukseskan event - event teknologi yang ada di Yogyakarta. Organisasi ini diketuai oleh Alfian dimana beliau sekarang bersekolah di SMK N 3 Yogyakarta jurusan Teknik Komputer dan Jaringan. J-Tech bertujuan untuk mengembangkan kemajuan teknologi di Yogyakarta baik dengan cara menggelar <i>seminar , workshop , code trip</i> , dll. Organisasi ini ditujukan khususnya kepada para pelajar dan mahasiswa Yogyakarta.
+					</p>
+				</div>
+
+			</div>
+				<img src="img/shadow-4.png" width="100%" style="margin-top:-0.5%;">
+		</center>
+	</div>
+					
+						<div class="animate-scroll2 scroll-css">
+							<h1>
+								Moto J-Tech 
+							</h1>
+							<hr>
+							<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+							<div class="box-isi">
+								<div style="background: white;width: 100%;border-radius: 10px;">
+								<font size="6pt"><b>Brings Out The Best Innovative With Technology</b></font>
+							</div>
+							</div>
+
+							<br><br><br><br>
+
+							<img src="img/shadow-4.png" width="100%" style="margin-top: -20px;">
+						</div>
+						<div class=" animate-scroll3 scroll-css">
+							<h1>
+								Visi dan Misi
+							</h1>
+							<hr>
+							<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+							<div class="box-isi">
+
+								<div style="background: white;width: 100%;border-radius: 10px;">
+								<font size="6pt" style="text-align: left;">
+									<b>Visi</b>
+								</font>
+								<hr><br>
+								<font>
+									Terwujudnya Kota Jogja menjadi kota teknologi
+								</font>
+								<br><br>
+								<font size="6pt" style="text-align: left;">
+									<b>Misi</b>
+								</font>
+								<hr><br>
+								<font>
+									Meningkatkan pemahaman teknologi<br><br>
+									Mendorong anak muda khususnya untuk mengenal teknologi<br><br>
+								</font>
+							</div>
+							</div>
+						</div>
+						</div>
+					</center>
+					<br><br><br><br>
+
+					<img src="img/shadow-4.png" width="100%" style="margin-top: -20px;">
+					</div>
+					</div>
+					
+					<div class="animate-scroll5 scroll-css3" style="background: url(img/back8.png);background-size: cover;">
+				<br><br>
+						<center>
+						<h1>testimoni</h1>
+						<hr>
+						<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+						<br>
+						<div class="pengantar">Apa kata mereka tentang J-Tech</div>
+						<br>
+						<div class="organisasi">
+							<div class="inline-block" style="width: 300px;">
+								<div><h2>Moh. Naufal</h2></div>
+								<img src="img/org/2.png" width="230px"><br><br>
+								<div>
+									<img src="img/quote.png" width="60px" style="border:none;box-shadow: none;font-size: 11pt;">
+								</div>
+								<div style="color:#222;"><font size="4pt">"J-Tech Sangatlah bagus karena berkat J-Tech saya menjadi mengenal banyak mengenai web devlopment"</font></div>
+							</div>
+							<div class="inline-block" style="width: 300px;">
+								<div><h2>Alfian</h2></div>
+								<img src="img/org/1.png" width="230px" style="-webkit-transform: scale(1.2,1.2);"><br><br>
+								<div>
+									<img src="img/quote.png" width="60px" style="border:none;box-shadow: none;font-size: 11pt;">
+								</div>
+								<div style="color:#222;"><font size="4pt">"Setelah saya mengikuti banyak kegiatan di J-tech saya sekarang sudah diterima bekerja di Google terimakasih J-Tech"</font></div>
+							</div>
+							<div class="inline-block" style="width: 300px;">
+								<div><h2>A. Rasyid</h2></div>
+								<img src="img/org/3.png" width="230px"><br><br>
+								<div>
+									<img src="img/quote.png" width="60px" style="border:none;box-shadow: none;font-size: 11pt;">
+								</div>
+								<div style="color:#222;"><font size="4pt">"Menurut saya J-Tech adalah organisasi terbaik di Jogja, saya sangat mendukung kegiatan yang diadakan J-Tech."</font></div>
+							</div>
+							<br><BR><br><BR>
+						</div>
+					</center>
+					</div>
+
+
+				
+				</div>
+			</div>
+		</center>
+	</div>
+
+	<!--.................... INTRO...........................-->
+	<!--.................... INTRO...........................-->
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+
+
+	<script type="text/javascript">
+		$("html").ready(function(){
+			$(window).scroll(function(){
+
+				if($("html").scrollTop() >= 300){
+					$(".animate-scroll").css({"-webkit-transform":"scale(1,1)"});
+				}
+				if($("html").scrollTop() >= 800){
+					$(".animate-scroll2").css({"-webkit-transform":"scale(1,1)"});
+				}
+				if($("html").scrollTop() >= 1200){
+					$(".animate-scroll3").css({"-webkit-transform":"scale(1,1)"});
+				}
+				if($("html").scrollTop() >= 1700){
+					$(".animate-scroll4").css({"-webkit-transform":"scale(1,1)"});
+				}		
+			});
+		});
+	</script>
+
+
+
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+
+
+	<img src="img/shadow-3.png" width="100%" style="-webkit-transform: rotate(180deg);">
+	<div class="footer">
+		<div class="batas-footer">
+			<center>
+				<h2>Jogja Tech - Brings Out The Best Innovative With Technology</h2>
+			</center>
+			<img src="img/shadow-3.png" width="100%" style="position: absolute;left: 0;">	
+		</div>
+		<div style="background: #222;">
+			<center>
+			<div class="footer-box inline-block logo">
+				<h2>Dipersembahkan oleh</h2>
+				<div><img src="img/smk3yk.png" width="50px" height="50px"></div>
+				<div><img src="img/logo-1-kecil.png" width="100px" height="40px"></div>
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Site Map</h2>
+					<div class="navigation2">
+						<a href="index.html">Beranda</a>
+						<a href="acara.html">Acara</a>	
+						<a href="galeri.html">Galeri</a>
+						<a href="kontak.html">Kontak</a>
+						<a href="tentang.html" id="active2" >Tentang</a>
+						<div class="clear-both"></div>
+					</div>	
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Ikuti kami</h2>
+					<div class="navigation2">
+						<a href="#" style="background: #3b5999; width: 30%;text-align:center;margin:10px;display: inline-block;">Facebook</a>
+						<a href="#" style="background: #e4405f; width: 30%;text-align:center;margin:10px;display: inline-block;">Instagram</a>	
+						<a href="#" style="background: #cd201f; width: 30%;text-align:center;margin:10px;display: inline-block;">Youtube</a>
+						<a href="#" style="background: #55acee; width: 30%;text-align:center;margin:10px;display: inline-block;">Tweeter</a>
+						<a href="#" style="background: #25D366; width: 30%;text-align:center;margin:10px;display: inline-block;">Whats App</a>
+						<a href="#" style="background: #00c300; width: 30%;text-align:center;margin:10px;display: inline-block;">Line</a>
+						<div class="clear-both"></div>
+					</div>	
+				</div>
+				<div class="footer-box inline-block">
+				<h2>Temukan Kami</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1152418093893!2d110.36383881422094!3d-7.77760367931727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58378e231e21%3A0x34bffdcc5d618a71!2sSMK+Negeri+3+Yogyakarta!5e0!3m2!1sid!2sid!4v1518233891601" width="80%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div style="padding: 10px;">
+					Jl. R.W. Monginsidi No.2A, Jetis, Kota Yogyakarta
+				</div>
+			</div>
+			<div class="clear-both"></div>
+			<div class="batas-footer">
+				
+					Copyright &copy; 2018 All-rights reserved. - Alfian - SMK N 3 YOGYAKARTA
+				</center>	
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+</body>
+</html>

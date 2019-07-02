@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTech - Jogja Technology Comunity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="img/j-icon.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+
+
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+
+	<div class="layer">
+		<div class="header-pict"  style="background: url(img/contact.jpg)bottom;background-size:cover;background-attachment: fixed;">
+		<div id="dark">
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+
+
+			<div class="top-header" style="background: none;">
+				<div class="image-logo-1 f-left">
+						<a href="index.html" title="Jogja Tech - Brings Out The Best Innovative With Technology"><img src="img/logo-1-kecil.png" width="200px"></a>
+				</div>
+				<div class="navigation3">
+					<div class="btn-nav drp" style="position:fixed;">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+				</div>
+				<div class="clear-both"></div>
+			</div>
+
+
+			<!--....................TOP HEADER...........................-->
+			<!--....................TOP HEADER...........................-->
+			<div id="header-caption">
+					<center>
+						<hr>
+						<div class="ovhidden"><div class="color-layer1"></div><div class="capt-header-1" id="out">Kontak</div></div><br>
+					<div class="ovhidden2"><div class="color-layer2"></div><div class="capt-header-2" id="out2">Hubungi dan kontak kami sekarang!</div></div>
+					<hr>
+					</center>
+			</div>
+			<script type="text/javascript">
+				$("#learn-more-head").click(function(){
+					$path = $("#here-learn").offset().top;
+					$("html").animate({scrollTop:$path},"slow");
+				});
+
+			</script>
+			<script type="text/javascript">
+				 $("html").ready(
+				 	function slideOne(){
+				 		$(".color-layer1").delay(100).animate({"width":"100%"},"200");
+				 		$(".color-layer1").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-1").delay(100).animate({"left":"0%"},"fast");
+
+				 		$(".color-layer2").delay(1000).animate({"width":"100%"},"slow");
+				 		$(".color-layer2").delay(30).animate({"width":"0px","left":"100%"},"slow");
+				 		$(".capt-header-2").delay(1200).animate({"left":"0%"},"fast");
+
+				 		$("#more-header").delay(1400).animate({"left":"0px"},"fast");
+				 });
+			</script>
+		</div>
+	</div>
+	</div>
+	
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+	<div class="garis-2"></div>
+	<div class="garis-1"></div>
+
+	<div class="clear-both"></div>
+	<div class="location-web">
+		<a href="index.html">Beranda</a>
+		 <span class="next-bc"></span> 
+		<font color="#222">Kontak</font>
+	</div>
+
+
+
+	<!--.................... BACKGROUND...........................-->
+	<!--.................... BACKGROUND...........................-->
+		<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	
+	<div class="navigation">
+		<div id="block" class="hiden">
+			<center>
+				<!--AVATAR-->
+				<div class="avatar">
+					<div class="back-avatar">
+						<div class="img-avatar">
+							<img src="img/avatar1.png" width="100px" height="100px">
+						</div>
+					</div>
+				</div>
+				<div class="name-user" id="diklik">
+					Pengunjung
+				</div>
+				<div class="dark-bg-user" style="z-index: 3000;display: none;"></div>
+					<div class="popup-user" style="display: none;z-index: 3200;">
+					<div class="avatar" style="width: 280px;overflow: hidden;">
+						<div class="back-avatar">
+							<div class="img-avatar2">
+								<center><img src="img/avatar1.png" width="130px" height="130px"></center>
+							</div>
+						</div>
+					</div>
+					<div class="name-user" id="diklik" style="padding: 15px;">
+						Pengunjung
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Masuk</a></center>
+					</div>
+					<div class="inline-block" style="text-align:center;width:50%;float: left;">
+						<center><a href="masuk.html" style="text-align: center;height: 20px;background: #f4f4f4;padding-top: 10px;padding-bottom: 10px;padding-left: 0px;padding-right: 0px;">Daftar</a></center>
+					</div>
+					</div>	
+				<script type="text/javascript">
+					$("#diklik").click(function(){
+						$(".popup-user").fadeIn();
+						$(".dark-bg-user").show();
+					});
+
+					$(".dark-bg-user").click(function(){
+						$(".popup-user").fadeOut();
+						$(".dark-bg-user").fadeOut();
+					});
+				</script>
+				<!---A-V-A-T-A-R-->
+				<li><a href="index.html"><img src="img/beranda.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Beranda</a></li>
+				<li><a href="acara.html" ><img src="img/acara.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Acara</a>	</li>
+				<li><a href="galeri.html" ><img src="img/galeri.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Galeri</a></li>
+				<li><a href="kontak.html"  id="active"><img src="img/kontak.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Kontak</a></li>
+				<li><a href="tentang.html" ><img src="img/tentang.png" width="30px" height="30px" style="position: relative;bottom:5px;float: left;padding-right: 30px;">Tentang</a></li>
+				<div class="close-btn">
+					<a href="javascript:void(0)" style="background: none;border:none;" id="close"><img src="img/close.png" width="40px" height="40px"></a>
+				</div>
+			</center>
+		</div>
+		<script type="text/javascript" src="slide.js">
+		</script>
+	</div>
+	<div class="dark-bg" style="display: none;">
+		<script type="text/javascript">
+			$(".dark-bg").click(function(){
+				$('.navigation').animate({left: '-100%'},300);
+				$(".drp").animate({right: '5%'},300);
+				$(".dark-bg").css("display","none");
+			});
+		</script>
+	</div>
+	
+
+
+	<!--....................NAVIGATION...........................-->
+	<!--....................NAVIGATION...........................-->
+
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+	<!--.................... EVENT...........................-->
+	<!--.................... EVENT...........................-->
+
+
+		<center>
+						
+					<h1>Mengobrol langsung dengan kami sekarang</h1>
+						<hr>
+						<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+						<p>
+							Butuh bantuan? Mengobrol dengan kami sekarang! Silahkan pilih CS kami
+						</p>
+						<div class="animate-scroll scroll-css res-lc" id="res-lc" style="">
+						
+						<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+						
+							<center>
+								<div class="mulai-obrol-btn inline-block">
+									<a href="javascript:void(0)" class="read-more chatnow chatnow1" style="background: #F2B353;">Hai Saya Alvi</a>
+								</div>
+								<div class="mulai-obrol-btn inline-block">
+									<a href="javascript:void(0)" class="read-more chatnow chatnow2" style="background: #F05D47;">Hai Saya Ica</a>
+								</div>
+								<div class="mulai-obrol-btn inline-block">
+									<a href="javascript:void(0)" class="read-more chatnow chatnow3" style="background: #12A0E2;">Hai Saya Pale</a>
+								</div>
+								<div class="mulai-obrol-btn inline-block">
+									<a href="javascript:void(0)" class="read-more chatnow chatnow4" style="background: #F2A189;">Hai Saya Jesy</a>
+								</div>
+								<div id="br">
+									<br><br><BR><BR><BR><br><br><BR><BR><BR><BR><BR>
+								</div>
+							</center>
+							<br><br><BR><BR><BR>
+							
+						</div>
+						
+						</center>
+
+						<script type="text/javascript">
+							$(".chatnow1").click(function(){
+								$(".cb1").delay(10).fadeIn();
+								$(".cb1").delay(40).animate({"bottom":"0px"});
+								$(".ch11").delay(1000).fadeIn();
+								$(".ch12").delay(3000).fadeIn();	
+							});
+
+							$(".chatnow2").click(function(){
+								$(".cb2").delay(10).fadeIn();
+								$(".cb2").delay(40).animate({"bottom":"0px"});
+								$(".ch12").delay(1000).fadeIn();
+								$(".ch22").delay(3000).fadeIn();	
+							});
+
+							$(".chatnow3").click(function(){
+								$(".cb3").delay(10).fadeIn();
+								$(".cb3").delay(40).animate({"bottom":"0px"});
+								$(".ch13").delay(1000).fadeIn();
+								$(".ch23").delay(3000).fadeIn();	
+							});
+
+							$(".chatnow4").click(function(){
+								$(".cb4").delay(10).fadeIn();
+								$(".cb4").delay(40).animate({"bottom":"0px"});
+								$(".ch14").delay(1000).fadeIn();
+								$(".ch24").delay(3000).fadeIn();	
+							});
+						</script>
+						
+
+
+						<div class="chat-box">
+
+							<div class="chat-body cb1" id="relative">
+								<div class="head-chat" id="kepala-chat">
+									<div style="float: right;" class="close-chat1"><img src="img/close.png" width="30px" height="30px;"></div>
+									<div style="float: right;margin-right: 20px;" class="hide-chat1" ><img src="img/arrow.png" style="-webkit-transform: rotate(90deg);" width="25px"></div>
+									<div style="float: right;margin-right: 20px;display: none;" class="show-chat1" ><img src="img/arrow.png" style="-webkit-transform: rotate(270deg);" width="25px"></div>
+									<script type="text/javascript">
+										$(".close-chat1").click(function(){
+											$(".chat-body").delay(50).animate({"bottom":"-295px"}),"fast";
+											$(".chat-body").slideUp("slow");
+											$("#chat-awal-adm").fadeOut();
+											$("#chat-awal-adm2").fadeOut();
+										});
+									</script>
+									<div class="status inline-block"></div>
+									<div class="inline-block font-ob" style="font-size: 15pt;">Alvi Pratama</div>
+								</div>
+								<script type="text/javascript">
+									$(".hide-chat1").click(function(){
+										$(".cb1").animate({"bottom":"-295px"});
+										$(".hide-chat1").hide();
+										$(".show-chat1").show();
+									});
+
+								
+										$(".show-chat1").click(function(){
+											$(".cb1").animate({"bottom":"0px"});
+											$(".hide-chat1").show();
+											$(".show-chat1").hide();
+										});
+									
+								</script>
+								<div class="chat-text">
+									<div id="chat-awal-adm" class="ch11">
+										<img src="img/cs1.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Selamat datang di live chat J-Tech
+										</div>
+									</div>
+
+									<div class="clear-both"></div>
+
+									<div id="chat-awal-adm2" class="ch12">
+										<img src="img/cs1.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Perkenalkan nama saya Alvi Pratama , ada yang bisa kami bantu?
+										</div>
+									</div>
+
+
+									<div class="clear-both"></div>
+								</div>
+								<div class="input-text">
+									
+									<div class="text-input-chat">
+										<center><input type="text" placeholder="Ketik pesan ..."><a href="javascript:void(0)">Kirim</a></center>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+
+
+
+						<div class="chat-box">
+
+							<div class="chat-body cb2" id="relative">
+								<div class="head-chat" id="kepala-chat">
+									<div style="float: right;" class="close-chat2"><img src="img/close.png" width="30px" height="30px;"></div>
+									<div style="float: right;margin-right: 20px;" class="hide-chat2" ><img src="img/arrow.png" style="-webkit-transform: rotate(90deg);" width="25px"></div>
+									<div style="float: right;margin-right: 20px;display: none;" class="show-chat2" ><img src="img/arrow.png" style="-webkit-transform: rotate(270deg);" width="25px"></div>
+									<script type="text/javascript">
+										$(".close-chat2").click(function(){
+											$(".cb2").delay(50).animate({"bottom":"-295px"}),"fast";
+											$(".cb2").slideUp("slow");
+											$("#chat-awal-adm").fadeOut();
+											$("#chat-awal-adm2").fadeOut();
+										});
+									</script>
+									<div class="status inline-block"></div>
+									<div class="inline-block font-ob" style="font-size: 15pt;">Ica Puspa</div>
+								</div>
+								<script type="text/javascript">
+									$(".hide-chat2").click(function(){
+										$(".cb2").animate({"bottom":"-295px"});
+										$(".hide-chat2").hide();
+										$(".show-chat2").show();
+									});
+
+								
+										$(".show-chat2").click(function(){
+											$(".cb2").animate({"bottom":"0px"});
+											$(".hide-chat2").show();
+											$(".show-chat2").hide();
+										});
+									
+								</script>
+								<div class="chat-text">
+									<div id="chat-awal-adm" class="ch12">
+										<img src="img/cs2.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Selamat datang di live chat J-Tech
+										</div>
+									</div>
+
+									<div class="clear-both"></div>
+
+									<div id="chat-awal-adm2" class="ch22">
+										<img src="img/cs2.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Perkenalkan nama saya Ica Puspa , ada yang bisa kami bantu?
+										</div>
+									</div>
+
+
+									<div class="clear-both"></div>
+								</div>
+								<div class="input-text">
+									
+									<div class="text-input-chat">
+										<center><input type="text" placeholder="Ketik pesan ..."><a href="javascript:void(0)">Kirim</a></center>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+
+
+
+						<div class="chat-box">
+
+							<div class="chat-body cb3" id="relative">
+								<div class="head-chat" id="kepala-chat">
+									<div style="float: right;" class="close-chat3"><img src="img/close.png" width="30px" height="30px;"></div>
+									<div style="float: right;margin-right: 20px;" class="hide-chat3" ><img src="img/arrow.png" style="-webkit-transform: rotate(90deg);" width="25px"></div>
+									<div style="float: right;margin-right: 20px;display: none;" class="show-chat3" ><img src="img/arrow.png" style="-webkit-transform: rotate(270deg);" width="25px"></div>
+									<script type="text/javascript">
+										$(".close-chat3").click(function(){
+											$(".cb3").delay(50).animate({"bottom":"-295px"}),"fast";
+											$(".cb3").slideUp("slow");
+											$("#chat-awal-adm").fadeOut();
+											$("#chat-awal-adm2").fadeOut();
+										});
+									</script>
+									<div class="status inline-block"></div>
+									<div class="inline-block font-ob" style="font-size: 15pt;">Pale Setyono</div>
+								</div>
+								<script type="text/javascript">
+									$(".hide-chat3").click(function(){
+										$(".cb3").animate({"bottom":"-295px"});
+										$(".hide-chat3").hide();
+										$(".show-chat3").show();
+									});
+
+								
+										$(".show-chat3").click(function(){
+											$(".cb3").animate({"bottom":"0px"});
+											$(".hide-chat3").show();
+											$(".show-chat3").hide();
+										});
+									
+								</script>
+								<div class="chat-text">
+									<div id="chat-awal-adm" class="ch13">
+										<img src="img/cs3.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Selamat datang di live chat J-Tech
+										</div>
+									</div>
+
+									<div class="clear-both"></div>
+
+									<div id="chat-awal-adm2" class="ch23">
+										<img src="img/cs3.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Perkenalkan nama saya Pale Setyono , ada yang bisa kami bantu?
+										</div>
+									</div>
+
+
+									<div class="clear-both"></div>
+								</div>
+								<div class="input-text">
+									
+									<div class="text-input-chat">
+										<center><input type="text" placeholder="Ketik pesan ..."><a href="javascript:void(0)">Kirim</a></center>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+
+
+
+						<div class="chat-box">
+
+							<div class="chat-body cb4" id="relative">
+								<div class="head-chat" id="kepala-chat">
+									<div style="float: right;" class="close-chat4"><img src="img/close.png" width="30px" height="30px;"></div>
+									<div style="float: right;margin-right: 20px;" class="hide-chat4" ><img src="img/arrow.png" style="-webkit-transform: rotate(90deg);" width="25px"></div>
+									<div style="float: right;margin-right: 20px;display: none;" class="show-chat4" ><img src="img/arrow.png" style="-webkit-transform: rotate(270deg);" width="25px"></div>
+									<script type="text/javascript">
+										$(".close-chat4").click(function(){
+											$(".cb4").delay(50).animate({"bottom":"-295px"}),"fast";
+											$(".cb4").slideUp("slow");
+											$("#chat-awal-adm").fadeOut();
+											$("#chat-awal-adm2").fadeOut();
+										});
+									</script>
+									<div class="status inline-block"></div>
+									<div class="inline-block font-ob" style="font-size: 15pt;">Jesy Dwi Sari</div>
+								</div>
+								<script type="text/javascript">
+									$(".hide-chat4").click(function(){
+										$(".cb4").animate({"bottom":"-295px"});
+										$(".hide-chat4").hide();
+										$(".show-chat4").show();
+									});
+
+								
+										$(".show-chat4").click(function(){
+											$(".cb4").animate({"bottom":"0px"});
+											$(".hide-chat4").show();
+											$(".show-chat4").hide();
+										});
+									
+								</script>
+								<div class="chat-text">
+									<div id="chat-awal-adm" class="ch14">
+										<img src="img/cs4.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Selamat datang di live chat J-Tech
+										</div>
+									</div>
+
+									<div class="clear-both"></div>
+
+									<div id="chat-awal-adm2" class="ch24">
+										<img src="img/cs4.png" width="40px" style="float: left;margin-top: 15px;margin-left: 5px;">
+										<div class="chat-first">
+											Perkenalkan nama saya Jesy Dwi Sari , ada yang bisa kami bantu?
+										</div>
+									</div>
+
+
+									<div class="clear-both"></div>
+								</div>
+								<div class="input-text">
+									
+									<div class="text-input-chat">
+										<center><input type="text" placeholder="Ketik pesan ..."><a href="javascript:void(0)">Kirim</a></center>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+					<center>
+
+						<div class="animate-scroll scroll-css" style="background: #dfdfdf;">
+							<img src="img/shadow-2.png" class="shadow-2" width="40%" >
+							<br><BR><BR>
+						<h1>Ikuti dan Kontak kami</h1>
+						<hr>
+						<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+							<div class="navigation2 medsos">
+								<a href="#" style="background: #3b5999;">Facebook</a>
+								<a href="#" style="background: #e4405f;">Instagram</a>	
+								<a href="#" style="background: #cd201f;">Youtube</a>
+								<a href="#" style="background: #55acee;">Tweeter</a>
+								<a href="#" style="background: #25D366;">Whats App</a>
+								<a href="#" style="background: #00c300;">Line</a>
+								<div class="clear-both"></div>
+							</div>	
+							<br><br><BR><BR><BR>
+							
+						</div>
+						<img src="img/shadow-2.png" width="100%" style="margin-top: -20px;">
+						<div class="animate-scroll2 scroll-css">		
+							<h1 class="">Temukan Kami</h1>
+							<hr>
+							<img src="img/shadow-2.png" class="shadow-2" width="30%" >
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1152418093893!2d110.36383881422094!3d-7.77760367931727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58378e231e21%3A0x34bffdcc5d618a71!2sSMK+Negeri+3+Yogyakarta!5e0!3m2!1sid!2sid!4v1518233891601" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<div style="padding: 10px;">
+								Jl. R.W. Monginsidi No.2A, Jetis, Kota Yogyakarta
+							</div>
+					</center>
+				</div>
+			</div>
+		</center>
+	</div>
+
+	<!--.................... EVENT...........................-->
+	<!--.................... EVENT...........................-->
+
+	<!--.................... INTI...........................-->
+	<!--.................... INTI...........................-->
+	<script type="text/javascript">
+		$("html").ready(function(){
+			$(window).scroll(function(){
+
+				if($("html").scrollTop() >= 300){
+					$(".animate-scroll").css({"-webkit-transform":"scale(1,1)"});
+				}
+				if($("html").scrollTop() >= 500){
+					$(".animate-scroll2").css({"-webkit-transform":"scale(1,1)"});
+				}		
+			});
+		});
+	</script>
+
+
+
+
+
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+
+
+	<img src="img/shadow-3.png" width="100%" style="-webkit-transform: rotate(180deg);">
+	<div class="footer">
+		<div class="batas-footer">
+			<center>
+				<h2>Jogja Tech - Brings Out The Best Innovative With Technology</h2>
+			</center>
+			<img src="img/shadow-3.png" width="100%" style="position: absolute;left: 0;">	
+		</div>
+		<div style="background: #222;">
+			<center>
+			<div class="footer-box inline-block logo">
+				<h2>Dipersembahkan oleh</h2>
+				<div><img src="img/smk3yk.png" width="50px" height="50px"></div>
+				<div><img src="img/logo-1-kecil.png" width="100px" height="40px"></div>
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Site Map</h2>
+					<div class="navigation2">
+						<a href="index.html" >Beranda</a>
+						<a href="acara.html">Acara</a>	
+						<a href="galeri.html">Galeri</a>
+						<a href="kontak.html" id="active2">Kontak</a>
+						<a href="tentang.html">Tentang</a>
+						<div class="clear-both"></div>
+					</div>	
+			</div>
+			<div class="footer-box inline-block">
+				<h2>Ikuti kami</h2>
+					<div class="navigation2">
+						<a href="#" style="background: #3b5999; width: 30%;text-align:center;margin:10px;display: inline-block;">Facebook</a>
+						<a href="#" style="background: #e4405f; width: 30%;text-align:center;margin:10px;display: inline-block;">Instagram</a>	
+						<a href="#" style="background: #cd201f; width: 30%;text-align:center;margin:10px;display: inline-block;">Youtube</a>
+						<a href="#" style="background: #55acee; width: 30%;text-align:center;margin:10px;display: inline-block;">Tweeter</a>
+						<a href="#" style="background: #25D366; width: 30%;text-align:center;margin:10px;display: inline-block;">Whats App</a>
+						<a href="#" style="background: #00c300; width: 30%;text-align:center;margin:10px;display: inline-block;">Line</a>
+						<div class="clear-both"></div>
+					</div>	
+				</div>
+				<div class="footer-box inline-block">
+				<h2>Temukan Kami</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1152418093893!2d110.36383881422094!3d-7.77760367931727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58378e231e21%3A0x34bffdcc5d618a71!2sSMK+Negeri+3+Yogyakarta!5e0!3m2!1sid!2sid!4v1518233891601" width="80%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div style="padding: 10px;">
+					Jl. R.W. Monginsidi No.2A, Jetis, Kota Yogyakarta
+				</div>
+			</div>
+			<div class="clear-both"></div>
+			<div class="batas-footer">
+				
+					Copyright &copy; 2018 All-rights reserved. - Alfian - SMK N 3 YOGYAKARTA
+				</center>	
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--....................FOOTER...........................-->
+	<!--....................FOOTER...........................-->
+</body>
+</html>
